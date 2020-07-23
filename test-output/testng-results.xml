@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14250" started-at="2020-07-22T10:29:29Z" finished-at="2020-07-22T10:29:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14250" started-at="2020-07-22T10:29:29Z" finished-at="2020-07-22T10:29:43Z">
+      <class name="Zameen.Interview_Solution.VerifySearchCriteria">
+        <test-method status="FAIL" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@32502377]" name="initialize" is-config="true" duration-ms="0" started-at="2020-07-22T15:29:29Z" finished-at="2020-07-22T15:29:29Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2VGBNK0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007F87E3+2852835]
+	Ordinal0 [0x006E5BB1+1727409]
+	Ordinal0 [0x005BE362+516962]
+	Ordinal0 [0x005B7D82+490882]
+	Ordinal0 [0x005B846B+492651]
+	Ordinal0 [0x005B93C5+496581]
+	Ordinal0 [0x005B4D64+478564]
+	Ordinal0 [0x005BF300+520960]
+	Ordinal0 [0x0056E489+189577]
+	Ordinal0 [0x0056D7FD+186365]
+	Ordinal0 [0x0056B70B+177931]
+	Ordinal0 [0x00552584+75140]
+	Ordinal0 [0x00553650+79440]
+	Ordinal0 [0x005535E9+79337]
+	Ordinal0 [0x006FAD5C+1813852]
+	GetHandleVerifier [0x0091C616+1075574]
+	GetHandleVerifier [0x0091C367+1074887]
+	GetHandleVerifier [0x00927497+1120247]
+	GetHandleVerifier [0x0091CC16+1077110]
+	Ordinal0 [0x006F3206+1782278]
+	Ordinal0 [0x006FC3BB+1819579]
+	Ordinal0 [0x006FC523+1819939]
+	Ordinal0 [0x00712B45+1911621]
+	BaseThreadInitThunk [0x76F86359+25]
+	RtlGetAppContainerNamedObjectPath [0x77447C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77447BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-2VGBNK0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007F87E3+2852835]
+	Ordinal0 [0x006E5BB1+1727409]
+	Ordinal0 [0x005BE362+516962]
+	Ordinal0 [0x005B7D82+490882]
+	Ordinal0 [0x005B846B+492651]
+	Ordinal0 [0x005B93C5+496581]
+	Ordinal0 [0x005B4D64+478564]
+	Ordinal0 [0x005BF300+520960]
+	Ordinal0 [0x0056E489+189577]
+	Ordinal0 [0x0056D7FD+186365]
+	Ordinal0 [0x0056B70B+177931]
+	Ordinal0 [0x00552584+75140]
+	Ordinal0 [0x00553650+79440]
+	Ordinal0 [0x005535E9+79337]
+	Ordinal0 [0x006FAD5C+1813852]
+	GetHandleVerifier [0x0091C616+1075574]
+	GetHandleVerifier [0x0091C367+1074887]
+	GetHandleVerifier [0x00927497+1120247]
+	GetHandleVerifier [0x0091CC16+1077110]
+	Ordinal0 [0x006F3206+1782278]
+	Ordinal0 [0x006FC3BB+1819579]
+	Ordinal0 [0x006FC523+1819939]
+	Ordinal0 [0x00712B45+1911621]
+	BaseThreadInitThunk [0x76F86359+25]
+	RtlGetAppContainerNamedObjectPath [0x77447C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77447BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Resources.base.initializeDriver(base.java:34)
+	at Zameen.Interview_Solution.VerifySearchCriteria.initialize(VerifySearchCriteria.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="verifySearchCriteria(java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@32502377]" name="verifySearchCriteria" duration-ms="3" started-at="2020-07-22T15:29:43Z" data-provider="getData" finished-at="2020-07-22T15:29:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCriteria -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@32502377]" name="teardown" is-config="true" duration-ms="0" started-at="2020-07-22T15:29:43Z" finished-at="2020-07-22T15:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Zameen.Interview_Solution.VerifySearchCriteria -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

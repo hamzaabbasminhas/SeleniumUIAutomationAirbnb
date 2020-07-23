@@ -1,0 +1,7 @@
+23:41:50.548 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child
+23:42:01.246 [main] INFO  Resources.base - Capturing Screenshot
+23:42:05.564 [main] INFO  Resources.base - Close Browser
+23:42:28.584 [main] INFO  Resources.base - Driver Initialized
+23:42:38.524 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/
+23:42:38.900 [main] INFO  Resources.base - Select Rome,Italy as a location
+23:42:41.303 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child

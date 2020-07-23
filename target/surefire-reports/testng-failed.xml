@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Zameen.Interview_Solution.Listeners"/>
+  </listeners>
+  <test name="Test4(failed)" parallel="none">
+    <classes>
+      <class name="Zameen.Interview_Solution.VerifyPropertyOnMap">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="verifyPropertyOnMap" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Zameen.Interview_Solution.VerifyPropertyOnMap -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

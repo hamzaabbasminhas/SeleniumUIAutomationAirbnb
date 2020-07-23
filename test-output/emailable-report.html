@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">14.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Zameen.Interview_Solution.VerifySearchCriteria</td><td><a href="#m1"><b>initialize</b>  </a></td><td class="numi">1</td><td>1595413769716</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">Zameen.Interview_Solution.VerifySearchCriteria</td><td><a href="#m2"><b>teardown</b>  </a></td><td class="numi">1</td><td>1595413783960</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">Zameen.Interview_Solution.VerifySearchCriteria</td><td><a href="#m3"><b>verifySearchCriteria</b>  </a></td><td class="numi">1</td><td>1595413783955</td><td class="numi">3</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">Zameen.Interview_Solution.VerifySearchCriteria:initialize</h2>
+<div style="padding-left:3em">
+<p>session not created
+from chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-2VGBNK0&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x007F87E3+2852835]
+	Ordinal0 [0x006E5BB1+1727409]
+	Ordinal0 [0x005BE362+516962]
+	Ordinal0 [0x005B7D82+490882]
+	Ordinal0 [0x005B846B+492651]
+	Ordinal0 [0x005B93C5+496581]
+	Ordinal0 [0x005B4D64+478564]
+	Ordinal0 [0x005BF300+520960]
+	Ordinal0 [0x0056E489+189577]
+	Ordinal0 [0x0056D7FD+186365]
+	Ordinal0 [0x0056B70B+177931]
+	Ordinal0 [0x00552584+75140]
+	Ordinal0 [0x00553650+79440]
+	Ordinal0 [0x005535E9+79337]
+	Ordinal0 [0x006FAD5C+1813852]
+	GetHandleVerifier [0x0091C616+1075574]
+	GetHandleVerifier [0x0091C367+1074887]
+	GetHandleVerifier [0x00927497+1120247]
+	GetHandleVerifier [0x0091CC16+1077110]
+	Ordinal0 [0x006F3206+1782278]
+	Ordinal0 [0x006FC3BB+1819579]
+	Ordinal0 [0x006FC523+1819939]
+	Ordinal0 [0x00712B45+1911621]
+	BaseThreadInitThunk [0x76F86359+25]
+	RtlGetAppContainerNamedObjectPath [0x77447C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77447BF4+180]
+</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+<br/>at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+<br/>at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+<br/>at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at Resources.base.initializeDriver(base.java:34)
+<br/>at Zameen.Interview_Solution.VerifySearchCriteria.initialize(VerifySearchCriteria.java:24)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Zameen.Interview_Solution.VerifySearchCriteria:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Zameen.Interview_Solution.VerifySearchCriteria:verifySearchCriteria</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>nonrestricteduser@qw.com</td>
+<td>123456</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

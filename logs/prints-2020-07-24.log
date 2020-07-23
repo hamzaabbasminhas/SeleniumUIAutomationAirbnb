@@ -1,0 +1,8 @@
+00:47:13.948 [main] INFO  Resources.base - Opening all amenities
+00:47:15.027 [main] INFO  Resources.base - Verifying Pool is displayed
+00:47:15.251 [main] INFO  Resources.base - Close Browser
+00:47:20.793 [main] INFO  Resources.base - Driver Initialized
+00:47:28.899 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/
+00:47:29.527 [main] INFO  Resources.base - Select Rome,Italy as a location
+00:47:34.088 [main] INFO  Resources.base - Entering checkin Date
+00:47:34.720 [main] INFO  Resources.base - Entering Checkout Date

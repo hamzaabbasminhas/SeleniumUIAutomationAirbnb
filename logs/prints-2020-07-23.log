@@ -1,0 +1,8 @@
+23:50:59.375 [main] INFO  Resources.base - Select Rome,Italy as a location
+23:51:03.296 [main] INFO  Resources.base - Entering checkin Date
+23:51:03.785 [main] INFO  Resources.base - Entering Checkout Date
+23:51:04.164 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child
+23:51:04.374 [main] INFO  Resources.base - Search for properties
+23:51:30.345 [main] INFO  Resources.base - Capturing Screenshot
+23:57:11.022 [main] INFO  Resources.base - Driver Initialized
+23:57:18.961 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/

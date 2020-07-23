@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104775" started-at="2020-07-23T19:46:01Z" finished-at="2020-07-23T19:47:46Z">
+    <groups>
+    </groups>
+    <test name="VerifySearchCriteria" duration-ms="27252" started-at="2020-07-23T19:46:01Z" finished-at="2020-07-23T19:46:28Z">
+      <class name="Zameen.Interview_Solution.VerifySearchCriteria">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="initialize" is-config="true" duration-ms="6123" started-at="2020-07-24T00:46:01Z" finished-at="2020-07-24T00:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifySearchCriteria(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="verifySearchCriteria" duration-ms="20838" started-at="2020-07-24T00:46:07Z" data-provider="getData" finished-at="2020-07-24T00:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rome,Italy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07/31/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08/07/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCriteria -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="teardown" is-config="true" duration-ms="268" started-at="2020-07-24T00:46:28Z" finished-at="2020-07-24T00:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Zameen.Interview_Solution.VerifySearchCriteria -->
+    </test> <!-- VerifySearchCriteria -->
+    <test name="VerifyDetailPageFilters" duration-ms="45868" started-at="2020-07-23T19:46:29Z" finished-at="2020-07-23T19:47:15Z">
+      <class name="Zameen.Interview_Solution.VerifyDetailPageFilters">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="initialize" is-config="true" duration-ms="5503" started-at="2020-07-24T00:46:29Z" finished-at="2020-07-24T00:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyPageFilters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="verifyPageFilters" duration-ms="40139" started-at="2020-07-24T00:46:34Z" data-provider="getData" finished-at="2020-07-24T00:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rome,Italy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07/31/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08/07/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageFilters -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="teardown" is-config="true" duration-ms="223" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Zameen.Interview_Solution.VerifyDetailPageFilters -->
+    </test> <!-- VerifyDetailPageFilters -->
+    <test name="Test3" duration-ms="6" started-at="2020-07-23T19:47:15Z" finished-at="2020-07-23T19:47:15Z">
+      <class name="Zameen.Interview_Solution.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:Zameen.Interview_Solution.AppTest@72c8e7b]" name="shouldAnswerWithTrue" duration-ms="5" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- Zameen.Interview_Solution.AppTest -->
+    </test> <!-- Test3 -->
+    <test name="VerifyPropertyOnMap" duration-ms="31121" started-at="2020-07-23T19:47:15Z" finished-at="2020-07-23T19:47:46Z">
+      <class name="Zameen.Interview_Solution.VerifyPropertyOnMap">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="initialize" is-config="true" duration-ms="5483" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyPropertyOnMap(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="verifyPropertyOnMap" duration-ms="25208" started-at="2020-07-24T00:47:20Z" data-provider="getData" finished-at="2020-07-24T00:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rome,Italy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[07/31/2020]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08/07/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPropertyOnMap -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="teardown" is-config="true" duration-ms="427" started-at="2020-07-24T00:47:46Z" finished-at="2020-07-24T00:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Zameen.Interview_Solution.VerifyPropertyOnMap -->
+    </test> <!-- VerifyPropertyOnMap -->
+  </suite> <!-- Suite -->
+</testng-results>

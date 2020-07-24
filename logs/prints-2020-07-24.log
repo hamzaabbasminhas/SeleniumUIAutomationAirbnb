@@ -1,8 +1,7 @@
-00:47:13.948 [main] INFO  Resources.base - Opening all amenities
-00:47:15.027 [main] INFO  Resources.base - Verifying Pool is displayed
-00:47:15.251 [main] INFO  Resources.base - Close Browser
-00:47:20.793 [main] INFO  Resources.base - Driver Initialized
-00:47:28.899 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/
-00:47:29.527 [main] INFO  Resources.base - Select Rome,Italy as a location
-00:47:34.088 [main] INFO  Resources.base - Entering checkin Date
-00:47:34.720 [main] INFO  Resources.base - Entering Checkout Date
+10:39:34.744 [main] INFO  Resources.base - Driver Initialized
+10:39:47.468 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/
+10:39:48.070 [main] INFO  Resources.base - Select Rome,Italy as a location
+10:39:51.713 [main] INFO  Resources.base - Entering checkin Date
+10:39:52.358 [main] INFO  Resources.base - Entering Checkout Date
+10:39:52.766 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child
+10:39:52.971 [main] INFO  Resources.base - Search for properties

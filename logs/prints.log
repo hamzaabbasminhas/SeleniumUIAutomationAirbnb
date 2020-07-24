@@ -1,6 +1,4 @@
-00:47:35.183 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child
-00:47:35.433 [main] INFO  Resources.base - Search for properties
-00:47:45.803 [main] INFO  Resources.base - Hover over the first property
-00:47:45.890 [main] INFO  Resources.base - Checking price of property
-00:47:46.004 [main] INFO  Resources.base - Verifying property appears on calendar
-00:47:46.431 [main] INFO  Resources.base - Close Browser
+10:40:03.205 [main] INFO  Resources.base - Hover over the first property
+10:40:03.286 [main] INFO  Resources.base - Checking price of property
+10:40:03.653 [main] INFO  Resources.base - Verifying property appears on calendar
+10:40:07.823 [main] INFO  Resources.base - Close Browser

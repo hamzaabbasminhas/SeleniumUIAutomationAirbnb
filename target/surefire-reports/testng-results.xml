@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="104775" started-at="2020-07-23T19:46:01Z" finished-at="2020-07-23T19:47:46Z">
+  <suite name="Suite" duration-ms="118778" started-at="2020-07-24T05:38:09Z" finished-at="2020-07-24T05:40:07Z">
     <groups>
     </groups>
-    <test name="VerifySearchCriteria" duration-ms="27252" started-at="2020-07-23T19:46:01Z" finished-at="2020-07-23T19:46:28Z">
+    <test name="VerifySearchCriteria" duration-ms="31610" started-at="2020-07-24T05:38:09Z" finished-at="2020-07-24T05:38:40Z">
       <class name="Zameen.Interview_Solution.VerifySearchCriteria">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="initialize" is-config="true" duration-ms="6123" started-at="2020-07-24T00:46:01Z" finished-at="2020-07-24T00:46:07Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@5a59ca5e]" name="initialize" is-config="true" duration-ms="5799" started-at="2020-07-24T10:38:09Z" finished-at="2020-07-24T10:38:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifySearchCriteria(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="verifySearchCriteria" duration-ms="20838" started-at="2020-07-24T00:46:07Z" data-provider="getData" finished-at="2020-07-24T00:46:28Z">
+        <test-method status="PASS" signature="verifySearchCriteria(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@5a59ca5e]" name="verifySearchCriteria" duration-ms="21708" started-at="2020-07-24T10:38:14Z" data-provider="getData" finished-at="2020-07-24T10:38:36Z">
           <params>
             <param index="0">
               <value>
@@ -32,19 +32,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchCriteria -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@6c4906d3]" name="teardown" is-config="true" duration-ms="268" started-at="2020-07-24T00:46:28Z" finished-at="2020-07-24T00:46:28Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifySearchCriteria@5a59ca5e]" name="teardown" is-config="true" duration-ms="4083" started-at="2020-07-24T10:38:36Z" finished-at="2020-07-24T10:38:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Zameen.Interview_Solution.VerifySearchCriteria -->
     </test> <!-- VerifySearchCriteria -->
-    <test name="VerifyDetailPageFilters" duration-ms="45868" started-at="2020-07-23T19:46:29Z" finished-at="2020-07-23T19:47:15Z">
+    <test name="VerifyDetailPageFilters" duration-ms="48320" started-at="2020-07-24T05:38:41Z" finished-at="2020-07-24T05:39:29Z">
       <class name="Zameen.Interview_Solution.VerifyDetailPageFilters">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="initialize" is-config="true" duration-ms="5503" started-at="2020-07-24T00:46:29Z" finished-at="2020-07-24T00:46:34Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@338fc1d8]" name="initialize" is-config="true" duration-ms="5322" started-at="2020-07-24T10:38:41Z" finished-at="2020-07-24T10:38:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifyPageFilters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="verifyPageFilters" duration-ms="40139" started-at="2020-07-24T00:46:34Z" data-provider="getData" finished-at="2020-07-24T00:47:15Z">
+        <test-method status="PASS" signature="verifyPageFilters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@338fc1d8]" name="verifyPageFilters" duration-ms="42852" started-at="2020-07-24T10:38:46Z" data-provider="getData" finished-at="2020-07-24T10:39:29Z">
           <params>
             <param index="0">
               <value>
@@ -65,27 +65,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageFilters -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@48e1f6c7]" name="teardown" is-config="true" duration-ms="223" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:15Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyDetailPageFilters@338fc1d8]" name="teardown" is-config="true" duration-ms="146" started-at="2020-07-24T10:39:29Z" finished-at="2020-07-24T10:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Zameen.Interview_Solution.VerifyDetailPageFilters -->
     </test> <!-- VerifyDetailPageFilters -->
-    <test name="Test3" duration-ms="6" started-at="2020-07-23T19:47:15Z" finished-at="2020-07-23T19:47:15Z">
+    <test name="Test3" duration-ms="4" started-at="2020-07-24T05:39:29Z" finished-at="2020-07-24T05:39:29Z">
       <class name="Zameen.Interview_Solution.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:Zameen.Interview_Solution.AppTest@72c8e7b]" name="shouldAnswerWithTrue" duration-ms="5" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:15Z">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:Zameen.Interview_Solution.AppTest@194fad1]" name="shouldAnswerWithTrue" duration-ms="3" started-at="2020-07-24T10:39:29Z" finished-at="2020-07-24T10:39:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- Zameen.Interview_Solution.AppTest -->
     </test> <!-- Test3 -->
-    <test name="VerifyPropertyOnMap" duration-ms="31121" started-at="2020-07-23T19:47:15Z" finished-at="2020-07-23T19:47:46Z">
+    <test name="VerifyPropertyOnMap" duration-ms="38429" started-at="2020-07-24T05:39:29Z" finished-at="2020-07-24T05:40:07Z">
       <class name="Zameen.Interview_Solution.VerifyPropertyOnMap">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="initialize" is-config="true" duration-ms="5483" started-at="2020-07-24T00:47:15Z" finished-at="2020-07-24T00:47:20Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@790da477]" name="initialize" is-config="true" duration-ms="5352" started-at="2020-07-24T10:39:29Z" finished-at="2020-07-24T10:39:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="verifyPropertyOnMap(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="verifyPropertyOnMap" duration-ms="25208" started-at="2020-07-24T00:47:20Z" data-provider="getData" finished-at="2020-07-24T00:47:46Z">
+        <test-method status="PASS" signature="verifyPropertyOnMap(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@790da477]" name="verifyPropertyOnMap" duration-ms="28905" started-at="2020-07-24T10:39:34Z" data-provider="getData" finished-at="2020-07-24T10:40:03Z">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPropertyOnMap -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@57bc27f5]" name="teardown" is-config="true" duration-ms="427" started-at="2020-07-24T00:47:46Z" finished-at="2020-07-24T00:47:46Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Zameen.Interview_Solution.VerifyPropertyOnMap@790da477]" name="teardown" is-config="true" duration-ms="4170" started-at="2020-07-24T10:40:03Z" finished-at="2020-07-24T10:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

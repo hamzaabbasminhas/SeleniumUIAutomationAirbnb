@@ -119,7 +119,7 @@ public class VerifyDetailPageFilters extends base {
 
 	@AfterTest
 	public void teardown() {
-		driver.close();
+		driver.quit();;
 		log.info("Close Browser");
 	}
 

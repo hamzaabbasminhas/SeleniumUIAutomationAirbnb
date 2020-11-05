@@ -10,14 +10,14 @@ public class Properties {
 
 	public WebDriver driver;
 
-	By location_filter = By.xpath("//button[contains(text(),'Rome')]");
+	By location_filter = By.xpath("//header/div[1]/div[2]/div[1]/div[1]/button[1]/div[1]");
 	By date_filter = By.xpath(
-			"/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/button[2]");
-	By guest_filter = By.xpath("//button[contains(text(),'3 guests')]");
+			"/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[1]/button[2]/div[1]");
+	By guest_filter = By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[1]/div[1]/button[3]/div[1]");
 	By num_of_guests = By.xpath(
 			"//body[@class='with-new-header']/div/div/div/div/div[@class='_16grqhk']/main[@id='site-content']/div[@class='content-container']/div[@id='ExploreLayoutController']/div[@class='_e296pg']/div[@class='_8h8epe3']/div[@class='_twmmpk']/div[@class='_19qnt1y']/div[@class='_1gw6tte']/div[@class='_uhpzdny']/div/div/div/div/div/div[@class='_fhph4u']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]");
 
-	By more_filters_button = By.xpath("//div[@id='menuItemButton-dynamicMoreFilters']//button[@class='_1wc4ltr']");
+	By more_filters_button = By.xpath("//body/div[4]/div[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[2]/div[1]/div[5]/button[1]");
 	By room_filter_checkBox = By.xpath(
 			"/html[1]/body[1]/div[11]/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/button[2]/span[1]");
 	By pool_filter_checkBox = By.xpath("//div[6]//div[1]//div[1]//div[4]//label[1]//span[1]//span[1]");

@@ -6,12 +6,6 @@
   </listeners>
   <test name="VerifySearchCriteria(failed)" parallel="none">
     <classes>
-      <class name="Zameen.Interview_Solution.VerifyPropertyOnMap">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Zameen.Interview_Solution.VerifyPropertyOnMap -->
       <class name="Zameen.Interview_Solution.VerifySearchCriteria">
         <methods>
           <include name="verifySearchCriteria" invocation-numbers="0"/>
@@ -19,35 +13,6 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- Zameen.Interview_Solution.VerifySearchCriteria -->
-      <class name="Zameen.Interview_Solution.VerifyDetailPageFilters">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Zameen.Interview_Solution.VerifyDetailPageFilters -->
     </classes>
   </test> <!-- VerifySearchCriteria(failed) -->
-  <test name="VerifyDetailPageFilters(failed)" parallel="none">
-    <classes>
-      <class name="Zameen.Interview_Solution.VerifyPropertyOnMap">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Zameen.Interview_Solution.VerifyPropertyOnMap -->
-      <class name="Zameen.Interview_Solution.VerifySearchCriteria">
-        <methods>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Zameen.Interview_Solution.VerifySearchCriteria -->
-      <class name="Zameen.Interview_Solution.VerifyDetailPageFilters">
-        <methods>
-          <include name="verifyPageFilters" invocation-numbers="0"/>
-          <include name="teardown"/>
-          <include name="initialize"/>
-        </methods>
-      </class> <!-- Zameen.Interview_Solution.VerifyDetailPageFilters -->
-    </classes>
-  </test> <!-- VerifyDetailPageFilters(failed) -->
 </suite> <!-- Failed suite [Suite] -->

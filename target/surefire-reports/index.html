@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,12 +48,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\Hamza Abbas\eclipse-workspace\Interview_Solution\testng.xml</span>
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,36 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Suite">
+                    <div class="method-list-content failed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Zameen.Interview_Solution.AppTest" hash-for-method="shouldAnswerWithTrue">shouldAnswerWithTrue</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Zameen.Interview_Solution.VerifySearchCriteria" hash-for-method="verifySearchCriteria(Rome,Italy, 11/12/2020, 11/19/2020)">verifySearchCriteria(Rome,Italy, 11/12/2020, 11/19/2020)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Zameen.Interview_Solution.VerifyDetailPageFilters" hash-for-method="verifyPageFilters(Rome,Italy, 07/31/2020, 08/07/2020)">verifyPageFilters(Rome,Italy, 07/31/2020, 08/07/2020)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Zameen.Interview_Solution.VerifyPropertyOnMap" hash-for-method="verifyPropertyOnMap(Rome,Italy, 07/31/2020, 08/07/2020)">verifyPropertyOnMap(Rome,Italy, 07/31/2020, 08/07/2020)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Zameen.Interview_Solution.VerifySearchCriteria" hash-for-method="verifySearchCriteria(Rome,Italy, 07/31/2020, 08/07/2020)">verifySearchCriteria(Rome,Italy, 07/31/2020, 08/07/2020)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -131,73 +116,103 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Zameen.Interview_Solution.VerifyPropertyOnMap</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPropertyOnMap(Rome,Italy, 07/31/2020, 08/07/2020)">
-                  </a> <!-- verifyPropertyOnMap(Rome,Italy, 07/31/2020, 08/07/2020) -->
-                  <span class="method-name">verifyPropertyOnMap</span>
-                  <span class="parameters">(Rome,Italy, 07/31/2020, 08/07/2020)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Zameen.Interview_Solution.VerifySearchCriteria</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySearchCriteria(Rome,Italy, 07/31/2020, 08/07/2020)">
-                  </a> <!-- verifySearchCriteria(Rome,Italy, 07/31/2020, 08/07/2020) -->
+                  <a name="verifySearchCriteria(Rome,Italy, 11/12/2020, 11/19/2020)">
+                  </a> <!-- verifySearchCriteria(Rome,Italy, 11/12/2020, 11/19/2020) -->
                   <span class="method-name">verifySearchCriteria</span>
-                  <span class="parameters">(Rome,Italy, 07/31/2020, 08/07/2020)</span>
+                  <span class="parameters">(Rome,Italy, 11/12/2020, 11/19/2020)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Hamza-Abbas.local&apos;, ip: &apos;fe80:0:0:0:809:4c37:be23:57cd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/vl/n_plvhd912x...}, goog:chromeOptions: {debuggerAddress: localhost:63648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29e87867f889e41903200b3beed9b238
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at Resources.base.searchForProperties(base.java:83)
+	at Zameen.Interview_Solution.VerifySearchCriteria.verifySearchCriteria(VerifySearchCriteria.java:42)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+... Removed 25 stack frames<br/> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Hamza-Abbas.local&apos;, ip: &apos;fe80:0:0:0:809:4c37:be23:57cd%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/vl/n_plvhd912x...}, goog:chromeOptions: {debuggerAddress: localhost:63648}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 29e87867f889e41903200b3beed9b238
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+	at Resources.base.searchForProperties(base.java:83)
+	at Zameen.Interview_Solution.VerifySearchCriteria.verifySearchCriteria(VerifySearchCriteria.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br>org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br>org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br>org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br>org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)<br>Resources.base.searchForProperties(base.java:83)<br>Zameen.Interview_Solution.VerifySearchCriteria.verifySearchCriteria(VerifySearchCriteria.java:42)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)<br>org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)<br>org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)<br>
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Zameen.Interview_Solution.AppTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shouldAnswerWithTrue">
-                  </a> <!-- shouldAnswerWithTrue -->
-                  <span class="method-name">shouldAnswerWithTrue</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Zameen.Interview_Solution.VerifyDetailPageFilters</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPageFilters(Rome,Italy, 07/31/2020, 08/07/2020)">
-                  </a> <!-- verifyPageFilters(Rome,Italy, 07/31/2020, 08/07/2020) -->
-                  <span class="method-name">verifyPageFilters</span>
-                  <span class="parameters">(Rome,Italy, 07/31/2020, 08/07/2020)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Hamza Abbas\eclipse-workspace\Interview_Solution\testng.xml</span>
+            <span class="header-content">/Users/hamzaabbaas/SeleniumUIAutomationAirBnB/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -212,21 +227,6 @@
       &lt;class name=&quot;Zameen.Interview_Solution.VerifySearchCriteria&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- VerifySearchCriteria --&gt;
-  &lt;test name=&quot;VerifyDetailPageFilters&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Zameen.Interview_Solution.VerifyDetailPageFilters&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- VerifyDetailPageFilters --&gt;
-  &lt;test name=&quot;Test3&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Zameen.Interview_Solution.AppTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test3 --&gt;
-  &lt;test name=&quot;VerifyPropertyOnMap&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Zameen.Interview_Solution.VerifyPropertyOnMap&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- VerifyPropertyOnMap --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,15 +239,6 @@
             <ul>
               <li>
                 <span class="test-name">VerifySearchCriteria (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">VerifyDetailPageFilters (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test3 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">VerifyPropertyOnMap (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -273,28 +264,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPageFilters')
-data.setCell(0, 2, 'Zameen.Interview_Solution.VerifyDetailPageFilters')
-data.setCell(0, 3, 36377);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyPropertyOnMap')
-data.setCell(1, 2, 'Zameen.Interview_Solution.VerifyPropertyOnMap')
-data.setCell(1, 3, 23071);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySearchCriteria')
-data.setCell(2, 2, 'Zameen.Interview_Solution.VerifySearchCriteria')
-data.setCell(2, 3, 16543);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'shouldAnswerWithTrue')
-data.setCell(3, 2, 'Zameen.Interview_Solution.AppTest')
-data.setCell(3, 3, 3);
+data.setCell(0, 1, 'verifySearchCriteria')
+data.setCell(0, 2, 'Zameen.Interview_Solution.VerifySearchCriteria')
+data.setCell(0, 3, 10234);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -326,49 +305,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifySearchCriteria(Rome,Italy, 07/31/2020, 08/07/2020)</span>
-                <span class="method-start">6403 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchCriteria(Rome,Italy, 11/12/2020, 11/19/2020)</span>
+                <span class="method-start">2459 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">22955 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Zameen.Interview_Solution.VerifyDetailPageFilters</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">23868 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">verifyPageFilters(Rome,Italy, 07/31/2020, 08/07/2020)</span>
-                <span class="method-start">29235 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">65613 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Zameen.Interview_Solution.AppTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">shouldAnswerWithTrue</span>
-                <span class="method-start">66600 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Zameen.Interview_Solution.VerifyPropertyOnMap</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">initialize</span>
-                <span class="method-start">66624 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">verifyPropertyOnMap(Rome,Italy, 07/31/2020, 08/07/2020)</span>
-                <span class="method-start">72129 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">95200 ms</span>
+                <span class="method-start">15615 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

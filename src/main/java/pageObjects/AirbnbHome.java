@@ -10,8 +10,8 @@ public class AirbnbHome {
 	
 	public WebDriver driver;
 	
-	By location=By.xpath("//input[@id='bigsearch-query-attached-query']");
-    By guests = By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[3]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[5]/button[1]");
+	By location=By.xpath("//input[@id='bigsearch-query-detached-query']");
+    By guests = By.xpath("/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[5]/div[1]");
     By date = By.xpath("//div[@class='_1eu9zfzy']");
     By adults = By.xpath("//div[@id='stepper-adults']//button[2]");
     By children = By.xpath("//div[@id='stepper-children']//button[2]");

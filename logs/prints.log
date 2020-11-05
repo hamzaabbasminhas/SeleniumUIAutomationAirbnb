@@ -1,6 +1,4 @@
-12:14:29.144 [main] INFO  Resources.base - Select Number of guests as 2 adults and 1 child
-12:14:29.359 [main] INFO  Resources.base - Search for properties
-12:14:39.587 [main] INFO  Resources.base - Hover over the first property
-12:14:39.672 [main] INFO  Resources.base - Checking price of property
-12:14:39.743 [main] INFO  Resources.base - Verifying property appears on calendar
-12:14:40.049 [main] INFO  Resources.base - Close Browser
+23:13:37.153 [main] INFO  Resources.base - Open bowser and go to https://www.airbnb.com/
+23:13:37.865 [main] INFO  Resources.base - Select Rome,Italy as a location
+23:13:41.370 [main] INFO  Resources.base - Capturing Screenshot
+23:13:41.631 [main] INFO  Resources.base - Close Browser

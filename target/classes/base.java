@@ -33,14 +33,14 @@ public class base {
 		prop = new Properties();
 
 		String base_path = System.getProperty("user.dir");
-		FileInputStream fis = new FileInputStream(base_path + "\\src\\main\\java\\Resources\\data.properties");
+		FileInputStream fis = new FileInputStream(base_path + "//src//main//java//Resources//data.properties");
 
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		System.out.println(browserName);
 
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", base_path + "\\src\\main\\java\\Resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", base_path + "//src//main//java//Resources//chromedriver");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			// execute in chrome driver

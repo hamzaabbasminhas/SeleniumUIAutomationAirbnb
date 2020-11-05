@@ -13,24 +13,24 @@
 	</test>
 
 
- 	<test name="VerifyDetailPageFilters">
-		<classes>
-			<class name="Zameen.Interview_Solution.VerifyDetailPageFilters" />
-		</classes>
-	</test> 
+<!-- 	<test name="VerifyDetailPageFilters">-->
+<!--		<classes>-->
+<!--			<class name="Zameen.Interview_Solution.VerifyDetailPageFilters" />-->
+<!--		</classes>-->
+<!--	</test>-->
 
 
-	<test name="Test3">
-		<classes>
-			<class name="Zameen.Interview_Solution.AppTest" />
-		</classes>
-	</test> <!-- Test -->
-	
-	<test name="VerifyPropertyOnMap">
-		<classes>
-			<class name="Zameen.Interview_Solution.VerifyPropertyOnMap" />
-		</classes>
-	</test> <!-- Test -->
+<!--	<test name="Test3">-->
+<!--		<classes>-->
+<!--			<class name="Zameen.Interview_Solution.AppTest" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
+
+<!--	<test name="VerifyPropertyOnMap">-->
+<!--		<classes>-->
+<!--			<class name="Zameen.Interview_Solution.VerifyPropertyOnMap" />-->
+<!--		</classes>-->
+<!--	</test> &lt;!&ndash; Test &ndash;&gt;-->
 
 
 </suite> <!-- Suite -->
